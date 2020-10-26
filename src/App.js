@@ -23,10 +23,12 @@ class App extends Component {
       <div className = "container mt-4">
         <h1>{this.state.title}</h1>
         <div className = "row">
-          <div class="col-6">
+          <div className="col-6 editor-border">
+            <h5 className = "editor-border__header text-center">Editor</h5>
             <textarea id="editor" className="editor" value={this.state.text} onChange = {this.handleChange}/>
           </div>
-          <div class="col-6">
+          <div className="col-6 preview-border">
+            <h5 className = "preview-border__header text-center">Preview</h5>
             <div id="preview" className="previewer" dangerouslySetInnerHTML={{__html: markdown}}></div>
           </div>
         </div>
