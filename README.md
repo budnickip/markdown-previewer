@@ -1,6 +1,6 @@
 ### Markdown Previewer
 
-![./.github/images/markDown.PNG](./.github/images/markDown.PNG)
+![./.github/images/markDown.png](./.github/images/markDown.png)
 
 Aplikacja stworzona w celu uzyskania certyfikatu ze strony FreeCodeCamp \
 
